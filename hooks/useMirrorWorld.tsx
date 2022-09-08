@@ -9,7 +9,7 @@ import {ClusterEnvironment, IUser, MirrorWorld} from "@mirrorworld/web3.js";
 
 export interface IMirrorWorldContext {
   user?: IUser,
-  mirrorworld?: MirrorWorld,
+  mirrorworld: MirrorWorld,
   login(): Promise<void>
 }
 
@@ -69,7 +69,7 @@ export const MirrorWorldProvider = ({ children }: { children: ReactNode }) => {
   
   return (
     <MirrorWorldContext.Provider value={{
-      mirrorworld,
+      mirrorworld: mirrorworld as MirrorWorld,
       user,
       login
     }}>

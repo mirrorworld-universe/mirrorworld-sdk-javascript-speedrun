@@ -63,10 +63,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mirrorworld/web3.js@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@mirrorworld/web3.js/-/web3.js-1.0.1.tgz#a54fe6ddbdcf13e781d6a06df5b9a056f2ac6161"
-  integrity sha512-pxLng4baJ/E+zScVKu2tvi4FChnZKXmNniey/wNXDcJThM0NWzqKI0XC9hxXSJAg8I2HMXPbDpnZH2+uMgghbw==
+"@mirrorworld/web3.js@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@mirrorworld/web3.js/-/web3.js-1.0.2.tgz#70ef5f2a031ba683026d5342e1bc529aa6cf7275"
+  integrity sha512-1Fkm8LXifaUJRnhJsT0u+SecbHg0RV6cTfsLuhwhfz3wF86Wn4CitLaq0gRA1buQ7xFW45T5URvgvxe4sEsO/w==
   dependencies:
     "@babel/runtime" "^7.18.9"
     "@types/bson" "^4.2.0"
